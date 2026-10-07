@@ -1,0 +1,23 @@
+,value
+files total,5028
+NSE files (*.NS.csv),1549
+BSE files (*.BO.csv),3479
+BSE files with numeric scrip codes,10
+NSE base symbols also present as .BO,1255
+NSE rows,4741184
+NSE date range,2000-01-03 .. 2020-06-05
+BSE date range,2000-01-03 .. 2020-06-05
+BSE rows,10833334
+NSE distinct dates,5221
+NSE rows on Saturdays/Sundays,21
+NSE rows per ticker (min / median / max),524 / 3263 / 5063
+NSE tickers with last date >= 2020-06-01,1517
+NSE all-NaN rows,314
+NSE rows with any NaN,314
+"NSE duplicate (ticker, Date) rows",17
+NSE zero-volume rows (share),0.0296
+NSE non-positive Open/High/Low/Close,0
+NSE non-positive Adj Close rows,10388
+NSE tickers with non-positive Adj Close,37
+NSE rows with Adj Close / Close > 1.001,1697
+"NSE rows with Close outside [Low, High]",1504

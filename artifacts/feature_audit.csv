@@ -1,0 +1,31 @@
+feature,formula,lookback_days,latest_timestamp_used,uses_future_data,max_abs_diff_truncated,max_abs_diff_future_noise
+ret_1,C_t / C_{t-1} - 1 (break-neutralised),1,t,False,0.0,0.0
+ret_1_lag1,ret_1 at t-1,2,t,False,0.0,0.0
+ret_1_lag2,ret_1 at t-2,3,t,False,0.0,0.0
+ret_1_lag3,ret_1 at t-3,4,t,False,0.0,0.0
+ret_1_lag4,ret_1 at t-4,5,t,False,0.0,0.0
+ret_5,CI_t / CI_(t-5) - 1 (momentum / trailing return),5,t,False,0.0,0.0
+ret_10,CI_t / CI_(t-10) - 1 (momentum / trailing return),10,t,False,0.0,0.0
+ret_21,CI_t / CI_(t-21) - 1 (momentum / trailing return),21,t,False,0.0,0.0
+ret_63,CI_t / CI_(t-63) - 1 (momentum / trailing return),63,t,False,0.0,0.0
+ret_126,CI_t / CI_(t-126) - 1 (momentum / trailing return),126,t,False,0.0,0.0
+mean_ret_21,mean of daily log returns over t-20..t,21,t,False,0.0,0.0
+vol_5,std of daily log returns over t-4..t,5,t,False,0.0,0.0
+vol_21,std of daily log returns over t-20..t,21,t,False,0.0,0.0
+vol_63,std of daily log returns over t-62..t,63,t,False,0.0,0.0
+vol_ratio_5_63,vol_5 / vol_63,63,t,False,0.0,0.0
+close_sma_5,CI_t / SMA_5(CI)_t - 1 (trailing SMA),5,t,False,0.0,0.0
+close_sma_21,CI_t / SMA_21(CI)_t - 1 (trailing SMA),21,t,False,0.0,0.0
+close_sma_63,CI_t / SMA_63(CI)_t - 1 (trailing SMA),63,t,False,0.0,0.0
+sma5_sma21,SMA_5(CI)_t / SMA_21(CI)_t - 1,21,t,False,0.0,0.0
+hl_range,"(max(O,H,C)_t - min(O,L,C)_t) / C_t",0,t,False,0.0,0.0
+hl_range_21,mean of hl_range over t-20..t,21,t,False,0.0,0.0
+oc_ret,C_t / O_t - 1 (intraday return),0,t,False,0.0,0.0
+gap_ret,O_t / C_{t-1} - 1 (overnight gap),1,t,False,0.0,0.0
+close_loc,(C_t - min) / (max - min) of day t's range,0,t,False,0.0,0.0
+volume_chg,ln V_t - ln V_{t-1},1,t,False,0.0,0.0
+volume_ratio_21,ln(V_t / mean(V_{t-20..t})),21,t,False,0.0,0.0
+rsi_14,"100 * avg gain / (avg gain + avg loss), simple 14-day means",14,t,False,0.0,0.0
+mkt_ret_1,cross-sectional mean of ret_1 on date t (same-date only),1,t,False,0.0,0.0
+mkt_ret_5,cross-sectional mean of ret_5 on date t (same-date only),5,t,False,0.0,0.0
+target (label only),Close_(t+5) / Close_t - 1,,t+5,True,,
