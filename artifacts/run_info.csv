@@ -1,0 +1,17 @@
+,value
+python,3.11.9
+platform,Windows-10-10.0.26300-SP0
+processor,Intel(R) Core(TM) Ultra 9 275HX
+logical_cpus,24
+gpu_detected,NVIDIA GeForce RTX 5070 Laptop GPU
+gpu_used,False
+numpy,2.4.6
+pandas,3.0.6
+scikit-learn,1.9.1
+scipy,1.17.1
+matplotlib,3.11.2
+kagglehub,1.0.2
+runtime_minutes,2.2
+final_model,HistGradientBoosting
+combined_sha256_nse_files,dd1816320ee495acf36e5823f1bdf3861c806362d31c10b733a9d01d8afa140b
+download_date,2026-10-08

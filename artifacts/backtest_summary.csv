@@ -1,0 +1,11 @@
+,period,periods,total_return,ann_return,ann_vol,sharpe_rf0,max_drawdown,avg_turnover,avg_cost_per_period
+long_only_net,validation,147.0,0.4956,0.148,0.2486,0.6806,-0.3199,1.4435,0.0014
+long_only_gross,validation,147.0,0.8478,0.2343,0.2487,0.9726,-0.2727,1.4435,0.0
+long_short_net,validation,147.0,-0.1925,-0.0707,0.1492,-0.4155,-0.2989,2.8707,0.0029
+long_short_gross,validation,147.0,0.2319,0.0741,0.1487,0.5561,-0.1444,2.8707,0.0
+ew_buy_hold,validation,147.0,0.765,0.2151,0.2061,1.0505,-0.2115,,0.0
+long_only_net,test,118.0,-0.328,-0.1561,0.3556,-0.2989,-0.5897,1.2827,0.0013
+long_only_gross,test,118.0,-0.2174,-0.0994,0.3552,-0.1172,-0.5341,1.2827,0.0
+long_short_net,test,118.0,0.5862,0.2178,0.1715,1.2351,-0.1824,2.7038,0.0027
+long_short_gross,test,118.0,1.1794,0.3948,0.1709,2.0372,-0.1356,2.7038,0.0
+ew_buy_hold,test,118.0,-0.3692,-0.1787,0.2626,-0.6146,-0.5354,,0.0
