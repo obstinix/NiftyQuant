@@ -1,10 +1,41 @@
+# Data and caches: the dataset lives in the kagglehub cache, outside this repository
 data/
 cache/
-.ipynb_checkpoints/
+.cache/
+*.csv
+!artifacts/*.csv
+
+# Python / Jupyter
 __pycache__/
+*.py[cod]
+.ipynb_checkpoints/
 .venv/
+venv/
+env/
+
+# Credentials and secrets
 kaggle.json
+.kaggle/
 .env
+.env.*
+
+# Large or binary outputs (no model file is committed)
 *.zip
+*.gz
+*.tar
+*.7z
 *.parquet
+*.feather
 *.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

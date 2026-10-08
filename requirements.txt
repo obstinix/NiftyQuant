@@ -1,0 +1,11 @@
+# Libraries imported by NiftyQuant.ipynb
+numpy>=2.4,<3
+pandas>=3.0,<4
+scipy>=1.17,<2
+scikit-learn>=1.9,<2
+matplotlib>=3.11,<4
+kagglehub>=1.0,<2
+# Notebook execution
+jupyter>=1.1,<2
+nbconvert>=7.17,<8
+ipykernel>=7.3,<8
